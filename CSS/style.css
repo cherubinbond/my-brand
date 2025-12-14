@@ -1,26 +1,77 @@
-:root {
-    --green-color:#13E02B;
-    --dark-color-photo:#1E1E1E;
-    --black-color:#000000;
-
+*, html, body{
+        font-family:'ABeeZee' ;
+        margin: 0;
+        padding: 0;
+}
+header {
+   background: url("../images/li-zhang-IiLVwx3e8bk-unsplash.svg.jpg") center/cover no-repeat;
+    min-height: 100vh;
 }
 
-*,
-*::after,
-*::before{
-    box-sizing: border-box;
-}
+.top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
 
-body{
-    margin: 0;
-    font-family: "Poppins, sans-serif"
+.top-menu a {
+    color: white;
+    display: flex;
+    align-items: middle;
+    gap: 10px;
+    text-decoration: none;
+} 
+.btn-green  {
+    background-color: green;
+    color: black;
+    font-size: 15px;
+    width: 75px;
+    height: 35px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 50;
 }
-
-.btn{
-    padding: 183px 24px;
-    color: #fff;
+.middle-left h1 {
     
-
-
-
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 80%;
 }
+
+.middle-left p {
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.david-matias img {
+    width: 450px;
+    height: 450px;
+    float:right;
+  }
+
+
+    
+.bottom a  {
+    background-color: green;
+    color: black;
+    font-size: 15px;
+    width: 4000px;
+    height: 35px;
+    position: absolute;
+    bottom: 40px;
+    left: 8%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 50;
+}
+
