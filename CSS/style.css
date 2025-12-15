@@ -1,0 +1,25 @@
+*,html,body{
+    font-family: ABeeZee ;
+    margin: 0;
+    padding: 0;
+}
+.main-page{
+    background-color: black;
+    height: 100vh;
+}
+.description h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 150px;
+    text-decoration: none;
+}
+
