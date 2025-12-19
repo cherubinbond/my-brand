@@ -1,0 +1,19 @@
+*,html,body{
+    font-family: 'ABeeZee';
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: black;
+    height: 300vh;
+}
+.personal-info h1 {
+    color: white;
+    display: flex;
+    
+}
+.info p {
+    color: white;
+    font-size: 50px;
+}
+
