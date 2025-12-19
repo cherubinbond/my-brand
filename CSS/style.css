@@ -1,0 +1,15 @@
+*,html,body{
+    font-family: 'ABeeZee';
+    margin:0%;
+    padding: 0%;
+}
+.heading{
+    background-color: black;
+    height: 10vh;
+    color: white;
+}
+.second-heading p{
+    background-color: black;
+    height: 10vh;
+    color: white;
+}
