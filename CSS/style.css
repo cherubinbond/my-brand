@@ -2,24 +2,49 @@
     font-family: ABeeZee ;
     margin: 0;
     padding: 0;
-}
-.main-page{
     background-color: black;
-    height: 100vh;
 }
+
 .description h1{
+    
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: none;
+    border-width: medium;
+    padding: 100px 100px;
 }
-.buttons{
+/*.buttons{
 
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 80%;
     gap: 150px;
     text-decoration: none;
+    margin-top: 100px;
+    color: white;
+}*/
+.button-container{
+    display: flex;   /* Aligns children (buttons) in a row */
+    gap: 10px;   /* Adds space between the buttons */
+    justify-content: center;   /* Adds some spacing around the container */
+    padding: 20px;
 }
+.button{
+    padding: 10px 20px;   /* Adds space inside the buttons */
+    font-size: 16px;
+    color: white;
+    background-color:#1E1E1E;   /* Button color */
+    border: none;   /* Removes default border */
+    border-radius: 5px;   /* Rounded corners */
+    cursor: pointer;  /* Changes mouse cursor to a hand on hover */
+   
+}
+/* Adding a hover effect */
+.button:hover{
+    background-color:#13E02B ;
+}
+
 
