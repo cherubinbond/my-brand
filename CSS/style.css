@@ -2,10 +2,12 @@
     font-family: 'ABeeZee';
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 .header {
-    background-color: black;
-    height: 300vh;
+    color: white;
+    border: none;
+    border-width: 5px;
 }
 .personal-info h1 {
     color: white;
