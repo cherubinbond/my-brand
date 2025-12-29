@@ -1,0 +1,25 @@
+:root {
+    --green-color:#13E02B;
+    --dark-color-photo:#1E1E1E;
+    --black-color:#000000;
+
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins, sans-serif"
+}
+
+.btn{
+    padding: 183px 24px;
+    color: #fff;
+    
+
+
+}
