@@ -4,18 +4,27 @@
     padding: 0;
     background-color: black;
 }
-.header {
+
+.personal-info  {
     color: white;
-    border: none;
-    border-width: 5px;
+    padding-top:100px ;
 }
-.personal-info h1 {
-    color: white;
+.Contact-section {
     display: flex;
-    
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    padding: 20px;
 }
-.info p {
-    color: white;
-    font-size: 50px;
+.contact-boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.box{
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 12px;
+
 }
 
