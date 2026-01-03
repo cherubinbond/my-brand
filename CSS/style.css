@@ -2,30 +2,53 @@
     font-family: 'ABeeZee';
     margin: 0;
     padding: 0;
-}
-.background{
     background-color: black;
-    height: 10vh;
 }
 .first-title {
-    background-color: black;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: limegreen;
     font-size: 50px;
 }
 .second-title {
-    background-color: black;
-    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 50px;
 }
-.upper-left{
-    background-color: black;
-    height: 500vh;
+.container-image{
+    display: grid; 
+    height: 600px;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
 }
+.upper-left{
+    color: white;
+}
+.bottom-left{
+    color: white;
+}
+.upper-right{
+    color: white;
+}
+.bottom-right{
+    color: white;
+}
+
+/*.upper-left{
+/*grid-area: header;
+}
+.bottom-left{
+grid-area: header;
+}
+.upper-right{
+grid-area: footer;
+}
+.bottom-right{
+grid-area: footer;
+}
+
+
