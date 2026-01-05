@@ -1,25 +1,38 @@
-:root {
-    --green-color:#13E02B;
-    --dark-color-photo:#1E1E1E;
-    --black-color:#000000;
-
-}
-
-*,
-*::after,
-*::before{
-    box-sizing: border-box;
-}
-
-body{
+*,html,body{
+    font-family: 'ABeeZee';
     margin: 0;
-    font-family: "Poppins, sans-serif"
-}
-
-.btn{
-    padding: 183px 24px;
-    color: #fff;
+    padding: 0;
     
-
-
+}
+body{
+    background-image:url("../images/li-zhang-IiLVwx3e8bk-unsplash.svg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-items{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar-items a:hover{
+    text-decoration: underline;
+}
+.btn-green{
+    padding: 10px 20px;
+    font-size: 5px;
+    background-color: limegreen;
+    border: solid;
+    border-radius: 5px;
+    cursor: pointer;
 }
