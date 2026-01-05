@@ -7,55 +7,35 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
 </head>
-<div>
-    <div class="heading">
-        <h1>Leave A Reply</h1>
-    </div>
-    <div class="second-heading">
-        <p>Your email address will not be published.Required fields are marked*</p>
-    </div>
-    <div>
-        <form action="#">
-            <input type="text" placeholder="Name"/>        
-        </form>
-        </div>
-        <div>
-        <form action="#">
-            <input type="text" placeholder="Email"/>        
-        </form>
-    </div>
-    <div>
-        <form action="#">
-            <input type="text" placeholder="Write comments"/>        
-        </form>
-    </div>
-    <div>
-        <a href="#" class="btn green">Submit comment</a>
-    </div>
-
-</div>
-<div>
-    <div class="heading2">
-        <h1>Feel Free To Contact Me <br> Anytime</h1>
-    </div>
-    
-    <div>
-        <form action="#">
-            <input type="text" placeholder="Email"  /><br><input type="text" placeholder="Davidmatias333@Gmail.com"  />
-        </form>
-        </div>
-        <div>
-        <form action="#">
-            <input type="text" placeholder="Phone"/><br><input type="text" placeholder="+(2) 871 382 023"  />       
-        </form>
-    </div>
-    <div>
-        <form action="#">
-            <input type="text" placeholder="Address" /> <br><input type="text" placeholder="Victoria Street London"  />       
-        </form>
-    </div>
-</div>
 <body>
-    
+    <div class= "container">
+        <div class="left-side">
+            <div class="heading1">
+        <h1>Leave A Reply</h1>
+            <p>Your email address will not be published.Required fields are marked*</p>
+        <form>
+            <input type ="text" name ="name" placeholder="Name">
+            <input type ="text" name ="email" placeholder="Email">
+            <textarea name ="message" placeholder="write comments"></textarea>
+            <button type="submit" class="submit-btn">Submit Comment ⟶</button>
+        </form>
+        </div>
+        </div>
+        <div class="right-side">
+            <h2>Feel Free To Contact Me <br> Anytime</h1>
+            <div class="info-field">
+                <span class="info-label">Email</span>
+                <div class="info-value">cherubinbond@gmail.com</div>
+            </div>
+            <div class="info-field">
+                <span class="info-label">Phone</span>
+                <div class="info-value">(+27)602682917</div>
+            </div>
+            <div class="info-field">
+                <span class="info-label"><Address></Address></span>
+                <div class="info-value">147 Hugh street</div>
+            </div>
+        </div>
+        </div>
 </body>
 </html>
