@@ -1,54 +1,50 @@
 *,html,body{
-    font-family: 'ABeeZee';
+    font-family: ABeeZee ;
     margin: 0;
     padding: 0;
     background-color: black;
 }
-.first-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: limegreen;
-    font-size: 50px;
-}
-.second-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 50px;
-}
-.container-image{
-    display: grid; 
-    height: 600px;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(2,1fr);
-    gap: 40px;
-}
-.upper-left{
-    color: white;
-}
-.bottom-left{
-    color: white;
-}
-.upper-right{
-    color: white;
-}
-.bottom-right{
-    color: white;
-}
 
-/*.upper-left{
-/*grid-area: header;
+.description h1{
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-width: medium;
+    padding: 100px 100px;
 }
-.bottom-left{
-grid-area: header;
+/*.buttons{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    text-decoration: none;
+    margin-top: 100px;
+    color: white;
+}*/
+.button-container{
+    display: flex;   /* Aligns children (buttons) in a row */
+    gap: 10px;   /* Adds space between the buttons */
+    justify-content: center;   /* Adds some spacing around the container */
+    padding: 20px;
 }
-.upper-right{
-grid-area: footer;
+.button{
+    padding: 10px 20px;   /* Adds space inside the buttons */
+    font-size: 16px;
+    color: white;
+    background-color:#1E1E1E;   /* Button color */
+    border: none;   /* Removes default border */
+    border-radius: 5px;   /* Rounded corners */
+    cursor: pointer;  /* Changes mouse cursor to a hand on hover */
+   
 }
-.bottom-right{
-grid-area: footer;
+/* Adding a hover effect */
+.button:hover{
+    background-color:#13E02B ;
 }
 
 
